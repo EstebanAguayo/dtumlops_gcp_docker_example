@@ -1,5 +1,5 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/dtumlops/cloud_built_img', '.']
+  args: ['build', '-t', 'gcr.io/dtumlops/test_0', '.']
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'gcr.io/dtumlops/cloud_built_img']
+  args: ['push', 'gcr.io/dtumlops/test_0']
